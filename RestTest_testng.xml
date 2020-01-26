@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RestTestSuite">
+    <test name="Test Authorization">
+        <classes>
+            <class name="testSuiteRest.TestRestLogin"></class>
+            <class name="testSuiteRest.TestRestLogout"></class>
+        </classes>
+    </test>
+    <test name="Test Insert">
+        <classes>
+            <class name="testSuiteRest.TestRestInsert"></class>
+        </classes>
+    </test>
+    <test name="Test Delete">
+        <classes>
+            <class name="testSuiteRest.TestRestRemove"></class>
+        </classes>
+    </test>
+    <test name="Test GetAll">
+        <classes>
+            <class name="testSuiteRest.TestRestGetAll"></class>
+        </classes>
+    </test>
+</suite>

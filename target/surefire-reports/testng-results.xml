@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="41" passed="37" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-25T22:34:23 MSK" name="UiTestSuite" finished-at="2020-01-25T22:35:15 MSK" duration-ms="52240">
+    <groups>
+    </groups>
+    <test started-at="2020-01-25T22:34:23 MSK" name="Test Authorization" finished-at="2020-01-25T22:34:49 MSK" duration-ms="25942">
+      <class name="testSuiteUi.TestUiLogout">
+        <test-method signature="testLogoutUi(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiLogout@6090f3ca]" started-at="2020-01-25T22:34:43 MSK" name="testLogoutUi" data-provider="data_logout_ui_test" finished-at="2020-01-25T22:34:46 MSK" duration-ms="3197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:7844/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutUi -->
+        <test-method signature="testLogoutUi(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiLogout@6090f3ca]" started-at="2020-01-25T22:34:46 MSK" name="testLogoutUi" data-provider="data_logout_ui_test" finished-at="2020-01-25T22:34:49 MSK" duration-ms="3256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:7844/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutUi -->
+      </class> <!-- testSuiteUi.TestUiLogout -->
+      <class name="testSuiteUi.TestUiLogin">
+        <test-method signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:23 MSK" name="testLogin" data-provider="data_login_ui_test" finished-at="2020-01-25T22:34:25 MSK" duration-ms="2236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:7844/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:25 MSK" name="logout" finished-at="2020-01-25T22:34:26 MSK" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:27 MSK" name="testLogin" data-provider="data_login_ui_test" finished-at="2020-01-25T22:34:29 MSK" duration-ms="2165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:7844/main]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:29 MSK" name="logout" finished-at="2020-01-25T22:34:30 MSK" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:30 MSK" name="testLogin" data-provider="data_login_ui_test" finished-at="2020-01-25T22:34:32 MSK" duration-ms="2164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:7844/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:32 MSK" name="logout" finished-at="2020-01-25T22:34:32 MSK" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:32 MSK" name="testLogin" data-provider="data_login_ui_test" finished-at="2020-01-25T22:34:34 MSK" duration-ms="2163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:7844/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:34 MSK" name="logout" finished-at="2020-01-25T22:34:34 MSK" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:34 MSK" name="testLogin" data-provider="data_login_ui_test" finished-at="2020-01-25T22:34:36 MSK" duration-ms="2165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:7844/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:36 MSK" name="logout" finished-at="2020-01-25T22:34:36 MSK" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:36 MSK" name="testLogin" data-provider="data_login_ui_test" finished-at="2020-01-25T22:34:38 MSK" duration-ms="2124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:7844/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:38 MSK" name="logout" finished-at="2020-01-25T22:34:38 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:38 MSK" name="testLogin" data-provider="data_login_ui_test" finished-at="2020-01-25T22:34:41 MSK" duration-ms="2106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:7844/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:41 MSK" name="logout" finished-at="2020-01-25T22:34:41 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:41 MSK" name="testLogin" data-provider="data_login_ui_test" finished-at="2020-01-25T22:34:43 MSK" duration-ms="2124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sam.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[987]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:7844/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiLogin@18a645fd]" started-at="2020-01-25T22:34:43 MSK" name="logout" finished-at="2020-01-25T22:34:43 MSK" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testSuiteUi.TestUiLogin -->
+    </test> <!-- Test Authorization -->
+    <test started-at="2020-01-25T22:34:49 MSK" name="Test Insert" finished-at="2020-01-25T22:35:07 MSK" duration-ms="17571">
+      <class name="testSuiteUi.TestUiInsert">
+        <test-method signature="testNegativeInsertUi(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiInsert@22fba58c]" started-at="2020-01-25T22:34:49 MSK" name="testNegativeInsertUi" data-provider="data_negative_insert_ui_test" finished-at="2020-01-25T22:34:52 MSK" duration-ms="3255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeInsertUi -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiInsert@22fba58c]" started-at="2020-01-25T22:34:52 MSK" name="logout" finished-at="2020-01-25T22:34:53 MSK" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="testNegativeInsertUi(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiInsert@22fba58c]" started-at="2020-01-25T22:34:53 MSK" name="testNegativeInsertUi" data-provider="data_negative_insert_ui_test" finished-at="2020-01-25T22:34:57 MSK" duration-ms="3459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Software testing is an investigation conducted to provide stakeholders with information about the quality of the software product or service under test.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeInsertUi -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiInsert@22fba58c]" started-at="2020-01-25T22:34:57 MSK" name="logout" finished-at="2020-01-25T22:34:58 MSK" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="testPositiveInsertUi(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiInsert@22fba58c]" started-at="2020-01-25T22:34:58 MSK" name="testPositiveInsertUi" data-provider="data_positive_insert_ui_test" finished-at="2020-01-25T22:35:01 MSK" duration-ms="3276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Note example]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositiveInsertUi -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiInsert@22fba58c]" started-at="2020-01-25T22:35:01 MSK" name="logout" finished-at="2020-01-25T22:35:02 MSK" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="testPositiveInsertUi(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiInsert@22fba58c]" started-at="2020-01-25T22:35:02 MSK" name="testPositiveInsertUi" data-provider="data_positive_insert_ui_test" finished-at="2020-01-25T22:35:06 MSK" duration-ms="3381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Note example]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositiveInsertUi -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiInsert@22fba58c]" started-at="2020-01-25T22:35:06 MSK" name="logout" finished-at="2020-01-25T22:35:07 MSK" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testSuiteUi.TestUiInsert -->
+    </test> <!-- Test Insert -->
+    <test started-at="2020-01-25T22:35:07 MSK" name="Test Delete" finished-at="2020-01-25T22:35:15 MSK" duration-ms="8655">
+      <class name="testSuiteUi.TestUiRemove">
+        <test-method is-config="true" signature="openConnection()[pri:0, instance:testSuiteUi.TestUiRemove@1e6308a9]" started-at="2020-01-25T22:34:14 MSK" name="openConnection" finished-at="2020-01-25T22:34:23 MSK" duration-ms="9450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openConnection -->
+        <test-method signature="testPositiveRemoveUi(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiRemove@1e6308a9]" started-at="2020-01-25T22:35:07 MSK" name="testPositiveRemoveUi" data-provider="data_remove_ui_test" finished-at="2020-01-25T22:35:10 MSK" duration-ms="3317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositiveRemoveUi -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiRemove@1e6308a9]" started-at="2020-01-25T22:35:10 MSK" name="logout" finished-at="2020-01-25T22:35:11 MSK" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="testPositiveRemoveUi(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteUi.TestUiRemove@1e6308a9]" started-at="2020-01-25T22:35:11 MSK" name="testPositiveRemoveUi" data-provider="data_remove_ui_test" finished-at="2020-01-25T22:35:14 MSK" duration-ms="3250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositiveRemoveUi -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testSuiteUi.TestUiRemove@1e6308a9]" started-at="2020-01-25T22:35:14 MSK" name="logout" finished-at="2020-01-25T22:35:15 MSK" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:testSuiteUi.TestUiRemove@1e6308a9]" started-at="2020-01-25T22:35:15 MSK" name="closeConnection" finished-at="2020-01-25T22:35:16 MSK" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- testSuiteUi.TestUiRemove -->
+    </test> <!-- Test Delete -->
+  </suite> <!-- UiTestSuite -->
+  <suite started-at="2020-01-25T22:34:11 MSK" name="RestTestSuite" finished-at="2020-01-25T22:34:14 MSK" duration-ms="2282">
+    <groups>
+    </groups>
+    <test started-at="2020-01-25T22:34:11 MSK" name="Test Authorization" finished-at="2020-01-25T22:34:13 MSK" duration-ms="1726">
+      <class name="testSuiteRest.TestRestLogin">
+        <test-method signature="testLoginRest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestLogin@378bd86d]" started-at="2020-01-25T22:34:11 MSK" name="testLoginRest" data-provider="data_login_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="1266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SUCCESS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginRest -->
+        <test-method signature="testLoginRest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestLogin@378bd86d]" started-at="2020-01-25T22:34:13 MSK" name="testLoginRest" data-provider="data_login_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SUCCESS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginRest -->
+        <test-method signature="testLoginRest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestLogin@378bd86d]" started-at="2020-01-25T22:34:13 MSK" name="testLoginRest" data-provider="data_login_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FAILED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginRest -->
+        <test-method signature="testLoginRest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestLogin@378bd86d]" started-at="2020-01-25T22:34:13 MSK" name="testLoginRest" data-provider="data_login_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="58" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FAILED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginRest -->
+        <test-method signature="testLoginRest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestLogin@378bd86d]" started-at="2020-01-25T22:34:13 MSK" name="testLoginRest" data-provider="data_login_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FAILED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginRest -->
+        <test-method signature="testLoginRest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestLogin@378bd86d]" started-at="2020-01-25T22:34:13 MSK" name="testLoginRest" data-provider="data_login_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FAILED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginRest -->
+        <test-method signature="testLoginRest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestLogin@378bd86d]" started-at="2020-01-25T22:34:13 MSK" name="testLoginRest" data-provider="data_login_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FAILED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginRest -->
+        <test-method signature="testLoginRest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestLogin@378bd86d]" started-at="2020-01-25T22:34:13 MSK" name="testLoginRest" data-provider="data_login_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sam.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[987]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FAILED]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginRest -->
+      </class> <!-- testSuiteRest.TestRestLogin -->
+      <class name="testSuiteRest.TestRestLogout">
+        <test-method signature="testRestLogout(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestLogout@2189e7a7]" started-at="2020-01-25T22:34:13 MSK" name="testRestLogout" data-provider="data_logout_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[login-page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestLogout -->
+        <test-method signature="testRestLogout(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestLogout@2189e7a7]" started-at="2020-01-25T22:34:13 MSK" name="testRestLogout" data-provider="data_logout_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[login-page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestLogout -->
+      </class> <!-- testSuiteRest.TestRestLogout -->
+    </test> <!-- Test Authorization -->
+    <test started-at="2020-01-25T22:34:13 MSK" name="Test Insert" finished-at="2020-01-25T22:34:13 MSK" duration-ms="251">
+      <class name="testSuiteRest.TestRestInsert">
+        <test-method signature="testRestInsertNegative(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestInsert@4905c46b]" started-at="2020-01-25T22:34:13 MSK" name="testRestInsertNegative" data-provider="data_insert_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Note example]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestInsertNegative -->
+        <test-method signature="testRestInsertNegative(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestInsert@4905c46b]" started-at="2020-01-25T22:34:13 MSK" name="testRestInsertNegative" data-provider="data_insert_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Note example]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestInsertNegative -->
+        <test-method signature="testRestInsertPositive(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestInsert@4905c46b]" started-at="2020-01-25T22:34:13 MSK" name="testRestInsertPositive" data-provider="data_insert_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Note example]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestInsertPositive -->
+        <test-method signature="testRestInsertPositive(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestInsert@4905c46b]" started-at="2020-01-25T22:34:13 MSK" name="testRestInsertPositive" data-provider="data_insert_rest_test" finished-at="2020-01-25T22:34:13 MSK" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Note example]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestInsertPositive -->
+      </class> <!-- testSuiteRest.TestRestInsert -->
+    </test> <!-- Test Insert -->
+    <test started-at="2020-01-25T22:34:14 MSK" name="Test Delete" finished-at="2020-01-25T22:34:14 MSK" duration-ms="122">
+      <class name="testSuiteRest.TestRestRemove">
+        <test-method signature="testRestInsertNegative(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestRemove@286b39c2]" started-at="2020-01-25T22:34:14 MSK" name="testRestInsertNegative" data-provider="data_remove_rest_test" finished-at="2020-01-25T22:34:14 MSK" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[420]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestInsertNegative -->
+        <test-method signature="testRestInsertNegative(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestRemove@286b39c2]" started-at="2020-01-25T22:34:14 MSK" name="testRestInsertNegative" data-provider="data_remove_rest_test" finished-at="2020-01-25T22:34:14 MSK" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[422]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestInsertNegative -->
+        <test-method signature="testRestRemove(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestRemove@286b39c2]" started-at="2020-01-25T22:34:14 MSK" name="testRestRemove" data-provider="data_remove_rest_test" finished-at="2020-01-25T22:34:14 MSK" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[420]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestRemove -->
+        <test-method signature="testRestRemove(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestRemove@286b39c2]" started-at="2020-01-25T22:34:14 MSK" name="testRestRemove" data-provider="data_remove_rest_test" finished-at="2020-01-25T22:34:14 MSK" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[422]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestRemove -->
+      </class> <!-- testSuiteRest.TestRestRemove -->
+    </test> <!-- Test Delete -->
+    <test started-at="2020-01-25T22:34:14 MSK" name="Test GetAll" finished-at="2020-01-25T22:34:14 MSK" duration-ms="70">
+      <class name="testSuiteRest.TestRestGetAll">
+        <test-method is-config="true" signature="openConnection()[pri:0, instance:testSuiteRest.TestRestGetAll@1a5b8489]" started-at="2020-01-25T22:34:11 MSK" name="openConnection" finished-at="2020-01-25T22:34:11 MSK" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openConnection -->
+        <test-method signature="testRestGetAll(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestGetAll@1a5b8489]" started-at="2020-01-25T22:34:14 MSK" name="testRestGetAll" data-provider="data_getall_rest_test" finished-at="2020-01-25T22:34:14 MSK" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[todoList]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestGetAll -->
+        <test-method signature="testRestGetAll(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSuiteRest.TestRestGetAll@1a5b8489]" started-at="2020-01-25T22:34:14 MSK" name="testRestGetAll" data-provider="data_getall_rest_test" finished-at="2020-01-25T22:34:14 MSK" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[simon_dow@some.domaine.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[todoList]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestGetAll -->
+        <test-method signature="testRestInsertNegative()[pri:0, instance:testSuiteRest.TestRestGetAll@1a5b8489]" started-at="2020-01-25T22:34:14 MSK" name="testRestInsertNegative" finished-at="2020-01-25T22:34:14 MSK" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestInsertNegative -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:testSuiteRest.TestRestGetAll@1a5b8489]" started-at="2020-01-25T22:34:14 MSK" name="closeConnection" finished-at="2020-01-25T22:34:14 MSK" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- testSuiteRest.TestRestGetAll -->
+    </test> <!-- Test GetAll -->
+  </suite> <!-- RestTestSuite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="UiTestSuite">
+    <test name="Test Authorization">
+        <classes>
+            <class name="testSuiteUi.TestUiLogin"></class>
+            <class name="testSuiteUi.TestUiLogout"></class>
+        </classes>
+    </test>
+    <test name="Test Insert">
+        <classes>
+            <class name="testSuiteUi.TestUiInsert"></class>
+        </classes>
+    </test>
+    <test name="Test Delete">
+        <classes>
+            <class name="testSuiteUi.TestUiRemove"></class>
+        </classes>
+    </test>
+</suite>

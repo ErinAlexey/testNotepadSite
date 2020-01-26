@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb66a6b3-6a28-4344-be17-8d3f496e06ca" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WnXFeiqxQD8z25fFWzICvSeY7E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testPrj" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+  </component>
+  <component name="RunManager" selected="TestNG.TestRestLogin">
+    <configuration name="TestRestLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tstRusPost" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSuiteRest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSuiteRest" />
+      <option name="MAIN_CLASS_NAME" value="testSuiteRest.TestRestLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRestLogout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tstRusPost" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSuiteRest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSuiteRest" />
+      <option name="MAIN_CLASS_NAME" value="testSuiteRest.TestRestLogout" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRestRemove" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tstRusPost" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSuiteRest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSuiteRest" />
+      <option name="MAIN_CLASS_NAME" value="testSuiteRest.TestRestRemove" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUiInsert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tstRusPost" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSuiteUi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSuiteUi" />
+      <option name="MAIN_CLASS_NAME" value="testSuiteUi.TestUiInsert" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUiRemove" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tstRusPost" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSuiteUi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSuiteUi" />
+      <option name="MAIN_CLASS_NAME" value="testSuiteUi.TestUiRemove" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestRestLogin" />
+        <item itemvalue="TestNG.TestUiRemove" />
+        <item itemvalue="TestNG.TestUiInsert" />
+        <item itemvalue="TestNG.TestRestLogout" />
+        <item itemvalue="TestNG.TestRestRemove" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb66a6b3-6a28-4344-be17-8d3f496e06ca" name="Default Changelist" comment="" />
+      <created>1579786229774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579786229774</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1580061140669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1579786382357" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580061140669" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1579983413246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1579790538365" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579983413246" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1579983413246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1579790538365" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579983413246" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1579983413246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1579790538365" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579983413246" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1579983413246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1579790538365" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579983413246" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579816719783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1579790538365" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579816719783" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579816719783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1579790538365" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579816719783" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579816719782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1579790538365" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579816719782" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579816719783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1579790538365" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579816719783" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1579976836467">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1579787124897" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579976836467" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1579978514703">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1579788383677" />
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579978514703" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1579790939945">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1579790939945" />
+  </component>
+</project>

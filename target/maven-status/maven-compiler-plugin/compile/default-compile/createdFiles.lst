@@ -1,0 +1,14 @@
+testSuiteRest\DataProviderRest.class
+testSuiteUi\TestUiLogin.class
+testSuiteUi\BaseUiTest.class
+testSuiteRest\TestRestLogin.class
+testSuiteRest\TestRestGetAll.class
+testSuiteRest\BaseRestTest.class
+Main.class
+testSuiteUi\DataProviderUI.class
+testSuiteRest\TestRestRemove.class
+testSuiteUi\TestUiLogout.class
+testSuiteRest\TestRestLogout.class
+testSuiteUi\TestUiRemove.class
+testSuiteRest\TestRestInsert.class
+testSuiteUi\TestUiInsert.class

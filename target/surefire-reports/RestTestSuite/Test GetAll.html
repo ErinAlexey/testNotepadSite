@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Test GetAll</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test GetAll</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jan 25 22:34:14 MSK 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (70 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testSuiteRest.TestRestLogin.testLoginRest()'><b>testLoginRest</b><br>Test class: testSuiteRest.TestRestLogin<br>Parameters: john_dow@some.domaine.com, 123456789, SUCCESS</td>
+<td></td>
+<td>1</td>
+<td>testSuiteRest.TestRestLogin@378bd86d</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestLogin.testLoginRest()'><b>testLoginRest</b><br>Test class: testSuiteRest.TestRestLogin<br>Parameters: simon_dow@some.domaine.com, 123456789, SUCCESS</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestLogin@378bd86d</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestLogin.testLoginRest()'><b>testLoginRest</b><br>Test class: testSuiteRest.TestRestLogin<br>Parameters: john_dow@some.domaine.com, 123, FAILED</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestLogin@378bd86d</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestLogin.testLoginRest()'><b>testLoginRest</b><br>Test class: testSuiteRest.TestRestLogin<br>Parameters: simon_dow@some.domaine.com, 123, FAILED</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestLogin@378bd86d</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestLogin.testLoginRest()'><b>testLoginRest</b><br>Test class: testSuiteRest.TestRestLogin<br>Parameters: simon_dow@some.domaine.com, , FAILED</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestLogin@378bd86d</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestLogin.testLoginRest()'><b>testLoginRest</b><br>Test class: testSuiteRest.TestRestLogin<br>Parameters: , 123456789, FAILED</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestLogin@378bd86d</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestLogin.testLoginRest()'><b>testLoginRest</b><br>Test class: testSuiteRest.TestRestLogin<br>Parameters: , , FAILED</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestLogin@378bd86d</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestLogin.testLoginRest()'><b>testLoginRest</b><br>Test class: testSuiteRest.TestRestLogin<br>Parameters: sam.com, 987, FAILED</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestLogin@378bd86d</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestGetAll.testRestGetAll()'><b>testRestGetAll</b><br>Test class: testSuiteRest.TestRestGetAll<br>Parameters: john_dow@some.domaine.com, 123456789, todoList</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestGetAll@1a5b8489</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestGetAll.testRestGetAll()'><b>testRestGetAll</b><br>Test class: testSuiteRest.TestRestGetAll<br>Parameters: simon_dow@some.domaine.com, 123456789, todoList</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestGetAll@1a5b8489</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestInsert.testRestInsertNegative()'><b>testRestInsertNegative</b><br>Test class: testSuiteRest.TestRestInsert<br>Parameters: john_dow@some.domaine.com, 123456789, Note example</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestInsert@4905c46b</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestInsert.testRestInsertNegative()'><b>testRestInsertNegative</b><br>Test class: testSuiteRest.TestRestInsert<br>Parameters: simon_dow@some.domaine.com, 123456789, Note example</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestInsert@4905c46b</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestRemove.testRestInsertNegative()'><b>testRestInsertNegative</b><br>Test class: testSuiteRest.TestRestRemove<br>Parameters: john_dow@some.domaine.com, 123456789, 420</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestRemove@286b39c2</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestRemove.testRestInsertNegative()'><b>testRestInsertNegative</b><br>Test class: testSuiteRest.TestRestRemove<br>Parameters: simon_dow@some.domaine.com, 123456789, 422</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestRemove@286b39c2</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestGetAll.testRestInsertNegative()'><b>testRestInsertNegative</b><br>Test class: testSuiteRest.TestRestGetAll</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestGetAll@1a5b8489</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestInsert.testRestInsertPositive()'><b>testRestInsertPositive</b><br>Test class: testSuiteRest.TestRestInsert<br>Parameters: john_dow@some.domaine.com, 123456789, Note example</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestInsert@4905c46b</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestInsert.testRestInsertPositive()'><b>testRestInsertPositive</b><br>Test class: testSuiteRest.TestRestInsert<br>Parameters: simon_dow@some.domaine.com, 123456789, Note example</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestInsert@4905c46b</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestLogout.testRestLogout()'><b>testRestLogout</b><br>Test class: testSuiteRest.TestRestLogout<br>Parameters: john_dow@some.domaine.com, 123456789, login-page</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestLogout@2189e7a7</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestLogout.testRestLogout()'><b>testRestLogout</b><br>Test class: testSuiteRest.TestRestLogout<br>Parameters: simon_dow@some.domaine.com, 123456789, login-page</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestLogout@2189e7a7</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestRemove.testRestRemove()'><b>testRestRemove</b><br>Test class: testSuiteRest.TestRestRemove<br>Parameters: john_dow@some.domaine.com, 123456789, 420</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestRemove@286b39c2</td></tr>
+<tr>
+<td title='testSuiteRest.TestRestRemove.testRestRemove()'><b>testRestRemove</b><br>Test class: testSuiteRest.TestRestRemove<br>Parameters: simon_dow@some.domaine.com, 123456789, 422</td>
+<td></td>
+<td>0</td>
+<td>testSuiteRest.TestRestRemove@286b39c2</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,29 @@
+[36m2020-01-26 16:36:41.513[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mr.r.interview.task.InterviewTaskApp[0;39m -- Starting InterviewTaskApp v1.0-SNAPSHOT on DESKTOP-JNM1QD6 with PID 15132 (C:\Users\Alexey\Downloads\tstRusPost\automation-interview-task-1.0-SNAPSHOT.jar started by Alexey in C:\Users\Alexey\Downloads\tstRusPost)
+[36m2020-01-26 16:36:41.521[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mr.r.interview.task.InterviewTaskApp[0;39m -- No active profile set, falling back to default profiles: default
+[36m2020-01-26 16:36:42.140[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m -- Bootstrapping Spring Data repositories in DEFAULT mode.
+[36m2020-01-26 16:36:42.194[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m -- Finished Spring Data repository scanning in 46ms. Found 3 repository interfaces.
+[36m2020-01-26 16:36:42.520[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m -- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[36m2020-01-26 16:36:42.831[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.s.b.w.e.tomcat.TomcatWebServer[0;39m -- Tomcat initialized with port(s): 7844 (http)
+[36m2020-01-26 16:36:42.840[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.a.coyote.http11.Http11NioProtocol[0;39m -- Initializing ProtocolHandler ["http-nio-7844"]
+[36m2020-01-26 16:36:42.841[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.a.catalina.core.StandardService[0;39m -- Starting service [Tomcat]
+[36m2020-01-26 16:36:42.841[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.a.catalina.core.StandardEngine[0;39m -- Starting Servlet engine: [Apache Tomcat/9.0.27]
+[36m2020-01-26 16:36:42.892[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m -- Initializing Spring embedded WebApplicationContext
+[36m2020-01-26 16:36:42.892[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.s.web.context.ContextLoader[0;39m -- Root WebApplicationContext: initialization completed in 1336 ms
+[36m2020-01-26 16:36:43.54[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.h.jpa.internal.util.LogHelper[0;39m -- HHH000204: Processing PersistenceUnitInfo [name: default]
+[36m2020-01-26 16:36:43.141[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33morg.hibernate.Version[0;39m -- HHH000412: Hibernate Core {5.4.8.Final}
+[36m2020-01-26 16:36:43.293[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.h.annotations.common.Version[0;39m -- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[36m2020-01-26 16:36:43.612[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33morg.hibernate.dialect.Dialect[0;39m -- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[36m2020-01-26 16:36:44.192[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m -- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[36m2020-01-26 16:36:44.198[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m -- Initialized JPA EntityManagerFactory for persistence unit 'default'
+[36m2020-01-26 16:36:44.618[0;39m [31mWARN [0;39m [[36mmain[0;39m] [33mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m -- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[36m2020-01-26 16:36:44.729[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33ms.d.s.w.PropertySourcedRequestMappingHandlerMapping[0;39m -- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[36m2020-01-26 16:36:44.813[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.s.s.c.ThreadPoolTaskExecutor[0;39m -- Initializing ExecutorService 'applicationTaskExecutor'
+[36m2020-01-26 16:36:45.46[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m -- Context refreshed
+[36m2020-01-26 16:36:45.61[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33ms.d.s.w.p.DocumentationPluginsBootstrapper[0;39m -- Found 1 custom documentation plugin(s)
+[36m2020-01-26 16:36:45.90[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33ms.d.s.w.s.ApiListingReferenceScanner[0;39m -- Scanning for api listing references
+[36m2020-01-26 16:36:45.248[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.a.coyote.http11.Http11NioProtocol[0;39m -- Starting ProtocolHandler ["http-nio-7844"]
+[36m2020-01-26 16:36:45.280[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mo.s.b.w.e.tomcat.TomcatWebServer[0;39m -- Tomcat started on port(s): 7844 (http) with context path ''
+[36m2020-01-26 16:36:45.283[0;39m [34mINFO [0;39m [[36mmain[0;39m] [33mr.r.interview.task.InterviewTaskApp[0;39m -- Started InterviewTaskApp in 4.162 seconds (JVM running for 4.742)
+[36m2020-01-26 16:36:46.290[0;39m [34mINFO [0;39m [[36mhttp-nio-7844-exec-1[0;39m] [33mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m -- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[36m2020-01-26 16:36:46.291[0;39m [34mINFO [0;39m [[36mhttp-nio-7844-exec-1[0;39m] [33mo.s.web.servlet.DispatcherServlet[0;39m -- Initializing Servlet 'dispatcherServlet'
+[36m2020-01-26 16:36:46.297[0;39m [34mINFO [0;39m [[36mhttp-nio-7844-exec-1[0;39m] [33mo.s.web.servlet.DispatcherServlet[0;39m -- Completed initialization in 5 ms

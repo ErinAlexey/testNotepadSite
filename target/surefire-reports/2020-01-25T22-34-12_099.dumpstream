@@ -1,0 +1,18 @@
+# Created on 2020-01-25T22:34:12.100
+WARNING: An illegal reflective access operation has occurred
+
+# Created on 2020-01-25T22:34:12.110
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v7.Java7$1 (file:/C:/Users/Alexey/.m2/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+
+# Created on 2020-01-25T22:34:12.116
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v7.Java7$1
+
+# Created on 2020-01-25T22:34:12.123
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created on 2020-01-25T22:34:12.128
+WARNING: All illegal access operations will be denied in a future release
+
+# Created on 2020-01-25T22:34:12.323
+[AppClassLoader@1f89ab83] warning javax.* types are not being woven because the weaver option '-Xset:weaveJavaxPackages=true' has not been specified
+
